@@ -1,0 +1,19 @@
+--- Appim Set-up:
+    npm i -g appium@next
+    appium driver install uiautomator2
+    appium plugin install --source=npm appium-wait-plugin
+
+    appium --use-plugins=element-wait   ==>> To Run Appium Server
+
+--- Appium doctor : npm install appium-doctor -g
+    appium-doctor
+
+--- App Package & App Activity
+    adb devices
+    adb shell
+    dumpsys window displays | grep -E 'mCurrentFocus'
+
+    ```java
+
+    ```
+
