@@ -5,6 +5,7 @@ import utils.Hooks;
 
 
 public class AmazonWebPage extends Hooks {
+
     public AmazonWebPage() {
         PageFactory.initElements(androidDriver, this);
     }
@@ -21,3 +22,4 @@ public class AmazonWebPage extends Hooks {
         androidDriver.executeScript(element);
     }
 }
+

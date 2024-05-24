@@ -7,6 +7,7 @@ import org.testng.Assert;
 import utils.Hooks;
 
 public class OsPage extends Hooks {
+
     public OsPage() {
         PageFactory.initElements(androidDriver, this);
     }

@@ -12,7 +12,6 @@ public class SauceDemoPage extends Hooks {
     }
 
     public void executeElement(String element) {
-
         androidDriver.executeScript(element);
     }
 
