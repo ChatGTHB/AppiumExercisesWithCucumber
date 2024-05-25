@@ -3,11 +3,11 @@ package steps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
 import page.SauceDemoPage;
 import utils.Hooks;
 
 public class SauceDemoStep extends Hooks {
+
     SauceDemoPage sauceDemoPage = new SauceDemoPage(androidDriver);
 
     @Given("I have opened Souce Demo Web Page")

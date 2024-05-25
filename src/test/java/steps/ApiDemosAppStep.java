@@ -44,7 +44,6 @@ public class ApiDemosAppStep extends Hooks {
         ospage.setTextBox().sendKeys(names);
     }
 
-
     @Given("I have opened Amazon Mobile Web page")
     public void i_have_opened_amazon_mobile_web_page() {
         androidDriver.get("https://www.amazon.com");
